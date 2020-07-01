@@ -77,10 +77,10 @@ body{
     list-style-type: none;
     display: block;
     padding: 10px;
-    margin-left: 3vw;
+    margin-left: 3%;
 }
 .sub-company:first-child{
-    margin-left: 0px;
+    margin-left: 0%;
 }
 
 /* The buttons that link to the annex websites */
@@ -135,7 +135,7 @@ body{
     margin-left: 5%;
 }
 .main-navbar-item:first-child{
-    margin-left: 0vw;
+    margin-left: 0;
 }
 
 /* Every visible link in the navbar */
@@ -297,6 +297,5 @@ body{
         margin-bottom: 2rem;
 
     }
-
 
 }

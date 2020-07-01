@@ -47,14 +47,15 @@ html{
 	width:100%;
 }
 
+
 /* The body of the page.Nothing else */
 body{
     background-color: rgb(240, 240, 240);
     min-height: 100%;
-    min-width: 100%;
     color: black;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 /* The sub-companies section */

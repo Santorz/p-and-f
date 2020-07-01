@@ -51,6 +51,7 @@ html{
 body{
     background-color: rgb(240, 240, 240);
     min-height: 100%;
+    min-width: 100%;
     color: black;
     display: flex;
     flex-direction: column;
@@ -153,7 +154,7 @@ body{
     overflow: hidden;
 }
 .main-navbar-link:hover{
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(187, 187, 187);
     color: #57094c;
 }
 
@@ -261,7 +262,7 @@ body{
 .text-on-svg-wave{
     font-size: 1rem;
     text-align: justify;
-    padding: 3.5rem;
+    padding: 2.75rem;
     background-color: rgb(233, 233, 233);
     color: #57094c;
 
@@ -298,4 +299,5 @@ body{
 
     }
 
+    
 }

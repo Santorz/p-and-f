@@ -60,6 +60,10 @@ body{
     flex-direction: column;
 }
 
+a{
+    outline: none;
+}
+
 /* The sub-companies section */
 .sub-companies-navbar{
     width: 100%;
@@ -182,7 +186,7 @@ body{
 
 #bg-pic-part-1{
     width: 100%;
-    height: 500px;
+    height: 75vh;
     background-image: url(images/shot-1.png) ;
     background-repeat: no-repeat;
     object-fit: cover;
@@ -263,7 +267,11 @@ body{
 
 
 .text-on-svg-wave{
-    font-size: 1rem;
+    font-family: 'Cool Velvetica';
+    line-height: 1.9em;
+    letter-spacing: .07em;
+    font-weight: 700;
+    font-size: 1.3rem;
     text-align: justify;
     padding: 2.75rem;
     background-color: rgb(233, 233, 233);

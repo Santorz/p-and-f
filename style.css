@@ -47,6 +47,9 @@ html{
 	width:100%;
 }
 
+html,body{
+    overflow-x: hidden;
+}
 
 /* The body of the page.Nothing else */
 body{
@@ -55,7 +58,6 @@ body{
     color: black;
     display: flex;
     flex-direction: column;
-    overflow-x: hidden;
 }
 
 /* The sub-companies section */

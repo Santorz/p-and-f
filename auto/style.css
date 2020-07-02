@@ -34,6 +34,7 @@ a{
 }
 
 #navbar img{
+    width: 17rem;
     margin-left: 7%;
     display: inline-block;
 }
@@ -60,14 +61,20 @@ a{
 
 }
 
+.last-navbar-list-item{
+    border: none;
+    display: none;
+}
+
 #navbar a{
     border-right: 1.5px solid white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     color: white;
-    padding: 1.75rem;
+    padding: 1.5rem 1.77rem;
     display: inline-block;
-    font-size: 1.55rem;
+    font-size: 1.45rem;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 #navbar a:hover{
@@ -86,7 +93,6 @@ a{
 }
 
 #bg-video {
-    height: 75vh;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -102,26 +108,40 @@ a{
     bottom:0;
     z-index:1;
     background-color: rgb(0, 0, 0);
-    opacity: .45;
+    opacity: .65;
     height: 75vh;
 }
   
 #text-on-video {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.637);
     padding: 2rem;
-    width: 14rem;
+    width: 100%;
     position: absolute;
     left: 50%;
     top: 20rem;
     z-index: 2;
     user-select: none;
-    margin-left: -7rem ;
+    margin-left: -50% ;
     margin-top: -8rem;
 }
 
 #text-on-video h2{
+    font-weight: bold;
+    line-height: 2.5rem;
+    letter-spacing: .1rem;
+    font-size: 2.5rem;
     color: white;
+    font-family: 'Cool Velvetica';
+}
+
+#text-on-video p{
+    font-weight: bold;
+    line-height: 1rem;
+    letter-spacing: .1rem;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: bold;
+
 }
 
  /*Thanks for your co-operation  */
@@ -167,7 +187,10 @@ a{
         width: 12rem;
     }
 
-
+    #bg-video video{
+        height: 30rem;
+        object-fit: cover;
+    }
 
 }
 
@@ -175,6 +198,14 @@ a{
 
 @media screen and (max-width:824px){
     #text-on-video {
-        top: 14rem;
+        top: 17rem;
+    }
+}
+
+
+
+@media screen and (max-width:929px){
+    #navbar a{
+        border-right: none;
     }
 }

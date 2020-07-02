@@ -1,0 +1,180 @@
+/* shhh!!!! */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* What do you expect me to say here too? */
+html{
+	height: 100%;
+	width:100%;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+/* The body of the page.Nothing else */
+body{
+    background-color: rgb(240, 240, 240);
+    min-height: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    outline: none;
+}
+
+#navbar{
+    width: 100%;
+    background-color: white;
+}
+
+#navbar img{
+    margin-left: 7%;
+    display: inline-block;
+}
+
+.navbar-container{
+    float: right;
+}
+
+#navbar ul{
+    background-color: rgba(48, 48, 48, 0.87);
+    vertical-align: middle;
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#navbar li{
+    display: block;
+    user-select: none;
+    list-style-type: none;
+    border-right: 2px white;
+
+}
+
+#navbar a{
+    border-right: 1.5px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 1.75rem;
+    display: inline-block;
+    font-size: 1.55rem;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+/*  Please, I'm still trying to understand this. 
+    It's for the background video with text.
+*/
+
+#bg-video-with-text {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    height: 75vh;
+}
+
+#bg-video {
+    height: 75vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+
+#bg-video:before {
+    content:"";
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    z-index:1;
+    background-color: rgb(0, 0, 0);
+    opacity: .45;
+    height: 75vh;
+}
+  
+#text-on-video {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.637);
+    padding: 2rem;
+    width: 14rem;
+    position: absolute;
+    left: 50%;
+    top: 20rem;
+    z-index: 2;
+    user-select: none;
+    margin-left: -7rem ;
+    margin-top: -8rem;
+}
+
+#text-on-video h2{
+    color: white;
+}
+
+ /*Thanks for your co-operation  */
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Media Queries !!! */
+@media screen and (max-width:824px){
+
+    #navbar a{
+        border-right: none;
+    }
+    
+    #bg-video {
+        height: auto;
+        width: 100%;
+    }
+
+    #bg-video::before{
+        height: inherit;
+        width: 100%;
+    }
+
+    #bg-video-with-text{
+        height: auto;
+        width: 100%;
+    }
+
+    .navbar-container{
+        display: none;
+    }
+
+    #navbar img{
+        width: 12rem;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width:824px){
+    #text-on-video {
+        top: 14rem;
+    }
+}

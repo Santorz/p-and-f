@@ -266,12 +266,12 @@ a{
 
 
 
-.text-on-svg-wave{
+.text-below-svg-wave{
     font-family: 'Cool Velvetica';
-    line-height: 1.9em;
-    letter-spacing: .07em;
+    line-height: 1.5em;
+    letter-spacing: .05em;
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 1.15rem;
     text-align: justify;
     padding: 2.75rem;
     background-color: rgb(233, 233, 233);

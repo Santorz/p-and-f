@@ -268,6 +268,7 @@ a{
 
 
 .text-below-svg-wave{
+    margin-top: -.3rem;
     font-family: 'Cool Velvetica';
     line-height: 1.5em;
     letter-spacing: .05em;

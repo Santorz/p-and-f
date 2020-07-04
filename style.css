@@ -85,7 +85,7 @@ a{
 .sub-company{
     list-style-type: none;
     display: block;
-    padding: 10px;
+    padding: .7em;
     margin-left: 3%;
 }
 .sub-company:first-child{
@@ -102,7 +102,7 @@ a{
     overflow: hidden;
     text-align: center;
     cursor: pointer;
-    padding: 8px 16px;
+    padding: .4rem ;
     vertical-align: middle;
     display: inline-block;
     text-decoration: none;

@@ -5,12 +5,12 @@
 @font-face {
     font-family:'Cool Velvetica';
     src: url('CV.eot');
-	src: url('fonts/Cool-Velvetica/CV.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/Cool-Velvetica/CV.woff2') format('woff2'),
-		 url('fonts/Cool-Velvetica/CV.woff') format('woff'),
-		 url('fonts/Cool-Velvetica/CV.ttf') format('truetype'),
-		 url('fonts/Cool-Velvetica/CV.otf') format('opentype'),
-		 url('fonts/Cool-Velvetica/CV.svg#g Regular') format('svg');
+	src: url('../fonts/Cool-Velvetica/CV.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Cool-Velvetica/CV.woff2') format('woff2'),
+		 url('../fonts/Cool-Velvetica/CV.woff') format('woff'),
+		 url('../fonts/Cool-Velvetica/CV.ttf') format('truetype'),
+		 url('../fonts/Cool-Velvetica/CV.otf') format('opentype'),
+		 url('../fonts/Cool-Velvetica/CV.svg#g Regular') format('svg');
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
@@ -58,12 +58,13 @@ a{
 
 }
 
-#navbar img{
+#logo{
     margin-top: 1.2rem;
     border-radius: .7rem;
-    width: 17rem;
+    width: 14rem;
     margin-left: 7%;
     display: inline-block;
+    box-shadow: .13rem  .13rem rgb(170, 170, 170);
 }
 
 .navbar-container{
@@ -86,8 +87,10 @@ a{
     display: block;
     user-select: none;
     list-style-type: none;
-    border: .1px groove white;
+    border: .1px groove rgb(170, 170, 170);
     margin-left: .7rem;
+    box-shadow: .15rem  .15rem rgb(170, 170, 170);
+    border-radius: .7rem;
 
 }
 
@@ -104,7 +107,7 @@ a{
     
 }
 
-.navbar-link:hover{
+#navbar li:hover{
     background-color: rgb(0, 0, 0);
 }
 
@@ -116,7 +119,6 @@ a{
     text-align: center;
     position: relative;
     overflow: hidden;
-    height: 90vh;
 }
 
 
@@ -136,8 +138,8 @@ a{
     left:0;
     bottom:0;
     z-index:1;
-    background-color: rgb(0, 0, 0);
-    opacity: .65;
+    background-color: black;    
+     opacity: .65;
     height: 90vh;
 }
   
@@ -176,7 +178,9 @@ a{
  /*Thanks for your co-operation  */
 
 
-
+#short-description-text{
+    background-color: rgb(100, 100, 100)
+}
 
 
 
@@ -212,14 +216,15 @@ a{
         display: none;
     }
 
-    #navbar img{
+    #logo{
         width: 12rem;
     }
 
     #bg-video video{
-        height: 37rem;
+        height: 33rem;
         object-fit: cover;
     }
+    
 
 }
 
